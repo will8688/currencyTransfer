@@ -1,0 +1,93 @@
+$button-color                              : #41b412;
+
+
+ .btn-book {
+	min-width: 130px;
+	width: 130px;
+	height: 30px;
+	line-height: 14px;
+	display: block;
+	margin: 0;
+	-webkit-transition: margin ease $ease-in-out-back;
+	transition: margin ease $ease-in-out-back;
+	color: white;
+	z-index: 5;
+}
+ .btn {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 18px;
+	padding: 8px 0;
+	background: $button-color;
+	border: none;
+	min-width: 125px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+ .book-button.arrow-box {
+	position: relative;
+	background: white;
+	border: 1px solid $button-color;
+	margin-left: 12px;
+}
+
+ .book-button:focus,  .book-button:active,  .book-button:hover,  .book-button {
+	outline: none;
+}
+
+
+ .book-button {
+	min-width: 85px;
+	width: 85px;
+	border: 1px solid #31870d;
+	background: transparent;
+	border-radius: 0;
+	height: 30px;
+	padding: 5px;
+	position: relative;
+	color: #31870d;
+	outline: none;
+}
+
+
+
+ .book-button.btn-label {
+	line-height: 18px;
+}
+
+ .btn-label {
+	-webkit-transition: margin ease $ease-in-out-back;
+	transition: margin ease $ease-in-out-back;
+	display: inline-block;
+	margin: 0;
+}
+
+ .book-label {
+	display: inline-block;
+	position: relative;
+	outline: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+	background: transparent;
+	overflow: hidden;
+	margin: 0;
+	border: solid $button-color 5px;
+}
+
+ .btn-confirm {
+	min-width: 100px;
+	display: inline-block;
+	background: $button-color;
+	color: white;
+	border: 1px solid $button-color;
+	-webkit-transition: margin ease $ease-in-out-back;
+	transition: margin ease $ease-in-out-back;
+	margin: 0;
+	line-height: 18px;
+}
